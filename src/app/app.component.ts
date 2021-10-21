@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
     },
     {id:'country',label:'Country'//,type:'button'
     },
-    {id:'email',label:'Email',type:'link'
+    {id:'email',label:'Email'//,type:'link'
     },
     {id:'dob',label:'Date of Birth'//,type:'date'
     },
@@ -68,7 +68,7 @@ export class AppComponent implements OnInit {
     }
 
     onClickMethod(event){
-      
+      console.log("clickEvent>",event);
     }
 
 
