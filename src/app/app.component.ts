@@ -22,13 +22,13 @@ export class AppComponent implements OnInit {
     {id:'firstName',label:'First Name'},
     {id:'lastName',label:'Last Name'},
     {id:'gender',label:'Gender'},
-    {id:'genderIcon',label:'Icon'//,icon:'bi bi-gender-ambiguous',type:'icon'
+    {id:'genderIcon',label:'Icon'//,type:'icon'
     },
     {id:'country',label:'Country'//,type:'button'
     },
     {id:'email',label:'Email'//,type:'link'
     },
-    {id:'dob',label:'Date of Birth'//,type:'date'
+    {id:'dob',label:'Date of Birth'//,type:'date',format:'dd/MM/yyyy'
     },
     {id:'picture',label:'Picture'//,type:'img'
     }
