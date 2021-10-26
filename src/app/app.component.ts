@@ -69,6 +69,12 @@ export class AppComponent implements OnInit {
 
     onClickMethod(event){
       console.log("clickEvent>",event);
+      // let {record,column}=event;
+      // if(column=='select'){
+      //   let index=this.users.indexOf(record);
+      //   record[column]=!record[column];
+      //   this.users[index]={...record};
+      // }
     }
 
 
