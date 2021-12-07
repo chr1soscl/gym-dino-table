@@ -1,4 +1,9 @@
 <div class="container">
+
+  <df-form
+  [formFields]="addressFields"
+  [buttons]="buttons"></df-form>
+  <br/>
   <div class="box">
     <dt-data-table
     [data]="users"
@@ -6,7 +11,7 @@
     [filters]="userFilters"
     [pages]="pages"
     [minCharSearch]="3"
-    [classes]="'table-striped table-borderless table-sm'"
+    [classes]="'table-hover table-borderless table-sm'"
     (onTableClick)="onClickMethod($event)">
     </dt-data-table>
   </div>

@@ -1,2 +1,16 @@
-// $primary: DodgerBlue;
-// @import "node_modules/bootstrap/scss/bootstrap.scss";
+$primary: #b71131;
+$secondary: #ccc;
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+.btn {
+  color: white;
+}
+
+// input[type="text"],
+// select {
+//   box-shadow: -4px 4px $primary;
+// }
+
+// button {
+//   box-shadow: -4px 4px $secondary;
+// }
