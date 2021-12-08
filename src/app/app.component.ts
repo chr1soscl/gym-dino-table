@@ -131,6 +131,11 @@ addressFields =
     //style:"border: 2px solid #b71131;border-radius:0 0 10px 10px;background-color:#f8e7ea;margin-bottom:4px;padding:5px;",
     "groupFields": [
       {
+        "id": "shipDate",
+        "label": "Ship Date",
+        "type": "date"
+      },
+      {
         "id": "state",
         "label": "State/Province",
         "type": "text",
@@ -159,6 +164,12 @@ memberButtons =
     "type": "submit",
     "action": "save",
     "icon": "bi bi-save"
+  },
+  {
+    "label": "Edit Member",
+    "type": "submit",
+    "action": "edit",
+    "icon": "bi bi-pencil"
   }
 ];
 
@@ -168,6 +179,12 @@ addressButtons =
     "label": "Add Address",
     "type": "submit",
     "action": "save",
+    "icon": "bi bi-save"
+  },
+  {
+    "label": "Edit Address",
+    "type": "submit",
+    "action": "edit",
     "icon": "bi bi-save"
   }
 ];
