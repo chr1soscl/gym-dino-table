@@ -55,7 +55,7 @@ export class AppComponent implements OnInit {
 [
   {
     "groupTitle": "Personal Information",
-    style:"border: 2px solid #2596be;border-radius:10px 10px 0 0;background-color:#bee0ec;padding:5px;",
+    //style:"border: 2px solid #2596be;border-radius:10px 10px 0 0;background-color:#bee0ec;padding:5px;",
     "groupFields": [
       {
         "id": "fName",
@@ -78,7 +78,7 @@ export class AppComponent implements OnInit {
     ]
   },
   {
-    style:"border: 2px solid #2596be;border-radius:0 0 10px 10px;background-color:#bee0ec;margin-bottom:4px;padding:5px;",
+    //style:"border: 2px solid #2596be;border-radius:0 0 10px 10px;background-color:#bee0ec;margin-bottom:4px;padding:5px;",
     "groupFields": [
       {
         "id": "dob",
@@ -105,7 +105,7 @@ addressFields =
 [
   {
     "groupTitle": "Address",
-    style:"border: 2px solid #b71131;border-radius:10px 10px 0 0;background-color:#f8e7ea;padding:5px;",
+    //style:"border: 2px solid #b71131;border-radius:10px 10px 0 0;background-color:#f8e7ea;padding:5px;",
     "groupFields": [
       {
         "id": "add1",
@@ -128,7 +128,7 @@ addressFields =
     ]
   },
   {
-    style:"border: 2px solid #b71131;border-radius:0 0 10px 10px;background-color:#f8e7ea;margin-bottom:4px;padding:5px;",
+    //style:"border: 2px solid #b71131;border-radius:0 0 10px 10px;background-color:#f8e7ea;margin-bottom:4px;padding:5px;",
     "groupFields": [
       {
         "id": "state",
@@ -152,7 +152,17 @@ addressFields =
   }
 ];
 
-  buttons =
+memberButtons =
+[
+  {
+    "label": "Create Member",
+    "type": "submit",
+    "action": "save",
+    "icon": "bi bi-save"
+  }
+];
+
+addressButtons =
 [
   {
     "label": "Add Address",

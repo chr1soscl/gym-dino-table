@@ -1,8 +1,15 @@
 <div class="container">
-
-  <df-form
-  [formFields]="addressFields"
-  [buttons]="buttons"></df-form>
+  <div class="box">
+    <df-form
+    [formFields]="memberFields"
+    [buttons]="memberButtons"></df-form>
+  </div>
+  <br/>
+  <div class="box">
+    <df-form
+    [formFields]="addressFields"
+    [buttons]="addressButtons"></df-form>
+  </div>
   <br/>
   <div class="box">
     <dt-data-table
