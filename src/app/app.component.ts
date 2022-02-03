@@ -133,7 +133,8 @@ addressFields =
       {
         "id": "shipDate",
         "label": "Ship Date",
-        "type": "date"
+        "type": "date",
+        "icon": "bi bi-calendar3"
       },
       {
         "id": "state",
