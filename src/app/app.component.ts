@@ -186,7 +186,7 @@ addressButtons =
     "label": "Edit Address",
     "type": "submit",
     "action": "edit",
-    "icon": "bi bi-save"
+    "icon": "bi bi-pencil"
   }
 ];
 
